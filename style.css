@@ -1,0 +1,117 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: helvetica, arial, sans-serif;
+    background: black;
+    color: white;
+}
+
+&:hover{background-color: blue;
+        color: slateblue;
+}
+
+#header img{
+    display: inline-block;
+}
+.logo{
+    display: block;
+    margin-left: 40%;
+}
+.nav_bar{
+text-align: right;
+cursor: pointer;
+}
+
+.active, .sample, .where{
+    text-decoration: none;
+    color: white;
+    padding-right: 30px;
+}
+
+.contact{
+    text-decoration: none;
+    color: white;
+    padding-right: 100px;
+}
+
+main{
+    margin: 50px;
+}
+
+section{
+    text-align: center;
+    padding: 10px; 
+    margin: 0 10px;
+    text-decoration: none;
+}
+section p .click{
+    color: thistle;
+    text-decoration: none;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form{
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    max-width: 500px;
+    border: 1.5px solid rgb(14, 12, 10);
+    border-radius: 10px;
+    display: block;
+    text-align: left;
+    
+}
+
+
+form #name, .letter{
+    text-align: center;
+}
+form #name{
+    width: 80%;
+    border: 3px solid lightblue;
+    padding: 5px;
+    margin: 10px auto;
+    text-align: center;
+}
+form #email{
+    width: 40%;
+    border-top: 3px solid green;
+    padding: 5px;
+    margin: 10px auto;
+}
+form #age{
+    width: 30%;
+    border-top: 3px solid orange;
+    padding: 4px;
+    margin: 10px auto;
+}
+div #btn .snd{
+    border-style: outset;
+    border-color: #0066A2;
+    margin-left: 50px;
+    padding-right: 0;
+    text-shadow: none;
+}
+div #btn .clr{
+    border-style: outset;
+    border-color: #0066A2;
+    margin-left: 270px;
+    padding-right: 0;
+    text-shadow: none;
+}
+
+footer{
+    padding: 5px;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
